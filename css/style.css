@@ -23,7 +23,6 @@ body:not(#home), .modal-content{
     background-color: rgba(0,0,0,0.4);    
 }
 
-/*Navigáció beállítása*/
 
 nav{
     background-color:  #1f5b25;
@@ -33,7 +32,6 @@ nav{
     width: 40px;
 }
 
-/*fejlec*/
 
 .banner{
     background-image: url(../img/banner.jpg);
@@ -42,7 +40,6 @@ nav{
     background-size: cover;
 }
 
-/*Oldal cím*/
 
 h1{
     font-family: 'Fredericka the Great', cursive;
@@ -53,7 +50,7 @@ h1:not(#home h1){
     color: #1f5b25;    
 }
 
-/*card beállítások*/
+
 
 .kave {
     color: #1f5b25;
@@ -80,7 +77,7 @@ a:hover {
     text-decoration: none;
 }
 
-/*lábléc*/
+
 
 .footer{
     background-color: #1f5b25;
