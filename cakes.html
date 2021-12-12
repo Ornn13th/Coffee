@@ -42,10 +42,10 @@
 
         <div class="row row-cols-1 row-cols-md-3">
             <div class="col mb-4">
-                <a href="#tiramisu">
-                    <img src=".img/sunflower.svg" id="napiajanlat" alt="" title="Napi ajánlat">
+                <a href="#tiramisu" data-toggle="modal" data-target="#tiramisuModal">
+                    <img src="img/sunflower.svg" id="napiajanlat" alt="" title="Napi ajánlat">
                     <div class="card">
-                        <img src=".img/sutemenyek/tiramisu_k.png" class="card-img-top" alt="Tiramisu">
+                        <img src="img/sutemenyek/tiramisu.png" class="card-img-top" alt="Tiramisu">
                         <div class="card-body">
                             <h5 class="card-title">Tiramisu</h5>
                         </div>
@@ -53,7 +53,7 @@
                 </a>
             </div>
             <div class="col mb-4">
-                <a href="#kavesbrownie">
+                <a href="#kavesbrownie"  data-toggle="modal" data-target="#brownieModal">
                     <div class="card">
                         <img src="img/sutemenyek/kavesbrownie_k.png" class="card-img-top" alt="Kávés brownie">
                         <div class="card-body">
@@ -63,9 +63,8 @@
                 </a>
             </div>
             <div class="col mb-4">
-                <a href="#kavessuti">
+                <a href="#kavessuti" data-toggle="modal" data-target="#sutiModal">
                     <div class="card">
-
                         <img src="img/sutemenyek/kavessuti_k.png" class="card-img-top" alt="Kávéssüti">
                         <div class="card-body">
                             <h5 class="card-title">Kávés süti</h5>
@@ -74,7 +73,7 @@
                 </a>
             </div>
             <div class="col mb-4">
-                <a href="#kavescroissant">
+                <a href="#kavescroissant"  data-toggle="modal" data-target="#croissantModal">
                     <div class="card">
                         <img src="img/sutemenyek/kavescroissant_k.png" class="card-img-top" alt="Kávés Croissant">
                         <div class="card-body">
@@ -84,7 +83,7 @@
                 </a>
             </div>
             <div class="col mb-4">
-                <a href="#kavesmuffin">
+                <a href="#kavesmuffin"  data-toggle="modal" data-target="#muffinModal">
                     <div class="card">
                         <img src="img/sutemenyek/kavesmuffin_k.png" class="card-img-top" alt="Kávés Muffin">
                         <div class="card-body">
@@ -94,7 +93,163 @@
                 </a>
             </div>
         </div>
-    </main>    
+    </main>   
+    
+    <div class="modal fade" id="tiramisuModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Érdekességek</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="container-fluid">
+                  <div class="row">
+                      <div class="col-sm-4">
+                          <img src="./img/sutemenyek/tiramisu.png" alt="Espresso" class="img-fluid">
+                      </div>
+                      <div class="col-sm-8">
+                          <h2>Tiramisu</h2>
+                          <p>A tiramisu (olaszul: tiramisù, tirameˈsu) olasz desszert, amely az eredeti recept szerint az alábbiakból készül: babapiskóta, tojássárgája, feketekávé, mascarpone sajt, cukor, és kakaópor.A tirami sù olasz kifejezés átvitt értelmű jelentése „dobj fel”, ami a két koffeintartalmú összetevőre utal: a presszókávéra és a kakaóra. Az eredeti receptben nincs tojásfehérje vagy alkohol.</p>
+                          <p>A Veneto tartománybeli Trevisóban 1969 decemberében a Le Beccehrie étterem tulajdonosa, Ado Campeol (1928–2021) feleségével, Alba di Pillo-val és Roberto Linguanottodas séffel alkotta meg az első tiramisut.  Az étterem étlapján 1972-ben jelent meg először.</p>
+                      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-success" data-dismiss="modal">Bezárás</button>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="brownieModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Érdekességek</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="container-fluid">
+                  <div class="row">
+                      <div class="col-sm-4">
+                          <img src="./img/sutemenyek/kavesbrownie_k.png" alt="Espresso" class="img-fluid">
+                      </div>
+                      <div class="col-sm-8">
+                          <h2>Kávés brownie</h2>
+                          <p>A brownie /ˈbraʊni/, vagy más szóval chocolate brownie /ˈʧɒklət ˈbraʊni/ vagy Boston brownie egy csokoládés, szeletelt sütemény. Nevét barna színéről kapta, tetejét néha cukormázzal vonják be. Az első írott forrás, ahol a brownie süteményt említik, 1897-ből származik a Sears and Roebuck(en) katalógusból. A legenda szerint úgy találták fel, hogy egy szórakozott szakács elfelejtett sütőport tenni a csokoládétortába. Számos brownierecept létezik, és sok fajtája nagyon egyszerűen elkészíthető. Recepteskönyvekben gyakran ajánlják kezdő süteményként, mert nem igényel bonyolult műveleteket az elkészítése.</p>
+                          <p>A brownie-t általában desszertként tálalják, néha forró tejjel vagy fagylalttal, ritkábban tejszínhabbal. A fagylaltos brownie-ra használják még a brownie à la mode megnevezést is az Amerikai Egyesült Államokban. Európában a házi browniekészítés nem jellemző, de például a Starbucks és a McDonald’s forgalmaz kész brownie-t az európai kontinensen. Hollandiában kendervirágzatot tartalmazó brownie is kapható kereskedelmi forgalomban space brownie néven.</p>
+                      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-success" data-dismiss="modal">Bezárás</button>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="sutiModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Érdekességek</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="container-fluid">
+                  <div class="row">
+                      <div class="col-sm-4">
+                          <img src="./img/sutemenyek/kavessuti_k.png" alt="Espresso" class="img-fluid">
+                      </div>
+                      <div class="col-sm-8">
+                          <h2>Kávés süti</h2>
+                          <p>Elkészítés: A tészta hozzávalóiból piskótát sütünk nagy tepsiben, 180 fokon 17 perc alatt.A krémhez 5 dl tejben megfőzzük a pudingport. Amikor a puding kihűlt, hozzáadjuk a margarint és a porcukrot, kikeverjük, majd kétfelé osztjuk. Az egyik felébe a kávét, a másik felébe pedig a cappuccino port keverjük.
+                            Először a cappuccinós krémet kenjük a piskóta tetejére, majd a kávés krém kerül a cappuccinós krémre. A tetejét csokimázzal bevonjuk.</p>
+                      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-success" data-dismiss="modal">Bezárás</button>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="croissantModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Érdekességek</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="container-fluid">
+                  <div class="row">
+                      <div class="col-sm-4">
+                          <img src="./img/sutemenyek/kavescroissant_k.png" alt="Espresso" class="img-fluid">
+                      </div>
+                      <div class="col-sm-8">
+                          <h2>Kávés croissant</h2>
+                          <p>A kifli osztrák eredetű, de leginkább Franciaországgal társított vajas, pelyhes, viennoiserie sütemény. A kifliket történelmi félhold alakjukról nevezték el, és más bécsi sorozatokhoz hasonlóan réteges élesztő-kovászos tésztából készülnek.</p>
+                      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-success" data-dismiss="modal">Bezárás</button>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="muffinModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Érdekességek</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="container-fluid">
+                  <div class="row">
+                      <div class="col-sm-4">
+                          <img src="./img/sutemenyek/kavesmuffin_k.png" alt="Espresso" class="img-fluid">
+                      </div>
+                      <div class="col-sm-8">
+                          <h2>Kávés Muffin</h2>
+                          <p>A muffin (kiejtése IPA: /'mʌfɪn/) egy süteményfajta, melynek két fő változata az angol és az amerikai muffin. Legtöbbször kifejezetten erre a célra gyártott és vajjal vagy növényi zsiradékkal kikent muffinsütőben sütik meg.c</p>
+                          <p>Magyarországon is egyre népszerűbbek az amerikai, francia és német családok körében méltán kedvelt muffinok. Ezek a formában kisült apró sütemények rendkívül egyszerűen és gyorsan elkészíthetők: a hozzávalókat néhány mozdulattal elkeverjük, a kapott masszát zsiradékkal kikent vagy papírformával kibélelt muffin sütő tepsibe kanalazzuk, majd 15–20 perc alatt készre sütjük.</p>
+                      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-success" data-dismiss="modal">Bezárás</button>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+
     <div class="footer">
     <footer class="container">
         <div class="row">
